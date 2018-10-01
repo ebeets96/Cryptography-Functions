@@ -115,4 +115,6 @@ word = ("PPKVFAZUNGSSHUNKZLQYMUNMHFOWKIZYNAWHGSALU"
 		"LSYPBOFICYRRVWSMFLLNCULVNOYLEUAWTUKLXEEPAPPEJINVY"
 		"QIOTPINUHVKMEAOPEOMSMEHMWKU")
 
-print(word)
+# print(word)
+
+printReplacedLetters("abcdefg", {"a":"z", "b": "y", "c":"x"})
