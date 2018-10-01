@@ -7,6 +7,7 @@ This function accepts an array of integers and will convert that to a string whe
 
 ### Example
 Input: `[0, 1, 2]`
+
 Output: `"abc"`
 
 ## `getNumberForm(word)`
@@ -14,6 +15,7 @@ This is the inverse function of `getWord(numberForm)`.
 
 ### Example
 Input: `"abc"`
+
 Output: `[0, 1, 2]`
 
 ## `printReplacedLetters(string, replacements)`
@@ -39,4 +41,5 @@ This takes two single-character strings as input.  It returns the shift that mus
 
 ### Example
 Input: `c`, `f`
-Output: `2`
+
+Output: `3`
