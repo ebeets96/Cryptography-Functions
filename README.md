@@ -33,3 +33,10 @@ This returns a dictionary containing key-value pairs of the English alphabet a..
 Input: `"aaabbcefhi"`
 
 Output: `{'a': 3, 'b': 2, 'c': 1, 'd': 0, 'e': 1, 'f': 1, 'g': 0, 'h': 1, 'i': 1, 'j': 0, 'k': 0 ...}`
+
+## `findShift(input, output)`
+This takes two single-character strings as input.  It returns the shift that must occur in order to turn the input to the output.  Essentially the distance between the two characters.
+
+### Example
+Input: `c`, `f`
+Output: `2`
