@@ -25,3 +25,11 @@ Input:
 	replacements: `{"a":"z", "b": "y", "c":"x"}`
 
 Output: "zyxdefg"
+
+## `getLettercounts(word)`
+This returns a dictionary containing key-value pairs of the English alphabet a..z and the corresponding number of occurrences in the string.
+
+### Example
+Input: `"aaabbcefhi"`
+
+Output: `{'a': 3, 'b': 2, 'c': 1, 'd': 0, 'e': 1, 'f': 1, 'g': 0, 'h': 1, 'i': 1, 'j': 0, 'k': 0 ...}`
